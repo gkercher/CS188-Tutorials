@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), BulldogListActivity.class);
+                Intent intent = new Intent(view.getContext(), MainActivity.class);
                 intent.putExtra("email", emailField.getText().toString());
                 startActivity(intent);
             }
