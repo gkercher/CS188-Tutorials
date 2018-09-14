@@ -24,7 +24,8 @@
         <activity
             android:name=".NewBulldogActivity"
             android:label="@string/title_activity_new_bulldog"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BulldogActivity"></activity>
     </application>
 
 </manifest>
