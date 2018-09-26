@@ -1,6 +1,7 @@
 package com.beautifulbulldog.grace.beautifulbulldog;
 
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
 public class Vote extends RealmObject {
     private Bulldog bulldog;
