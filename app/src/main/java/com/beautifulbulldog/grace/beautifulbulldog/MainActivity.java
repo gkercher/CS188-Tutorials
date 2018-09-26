@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         });
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.addTab(tabLayout.newTab().setText("Bulldogs"));
-        tabLayout.addTab(tabLayout.newTab().setText("Rankings"));
+        tabLayout.addTab(tabLayout.newTab().setText("Votes"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
